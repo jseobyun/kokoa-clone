@@ -1,0 +1,30 @@
+.screen_header {
+    display: flex;
+    justify-content: space-between;       
+    font-size: 28px;
+    font-weight: 600;
+    top: 0px;
+    padding: var(--hor_intv);
+    margin-bottom: 10px;
+}
+
+.screen_header_icons span{
+    margin-left: 20px;
+}
+
+.screen_header_icons:last-child {
+    position: relative;
+}
+
+@keyframes rotGear{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen_header_icons .fa-gear:hover{
+    animation:rotGear 3s, ease-in-out infinite;
+}

@@ -1,0 +1,55 @@
+.user {    
+    justify-content: space-between;
+}
+
+.user,
+.user__column:first-child {
+    display: flex;    
+    align-items: center;
+}
+
+.user__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user__profile {
+    border-radius: 35%;
+    width : 70px;
+    height: 70px;
+    margin-right: 25px;
+}
+
+.user__profile__xl {    
+    width : 80px;
+    height: 80px;    
+}
+
+.user__profile__sm {    
+    width : 60px;
+    height: 60px;    
+    border-radius: 25%;
+    font-weight: 400;
+}
+
+.user__name {
+    font-weight: 450;
+    font-size: 22px;
+}
+
+.user__name__normal {
+    font-weight: 400;
+    
+}
+
+.user__state {
+    margin-top: 6px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+}
+
+.user__time {
+    display: block;
+    margin-bottom : 7px;
+}

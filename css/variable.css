@@ -1,0 +1,7 @@
+:root {
+    --yellow : #FAE100;
+    --gray : #f9f9fa;
+    --hor_intv: 25px;
+    --font_gray: rgba(0,0,0,0.5);
+    --bot_border: 1px solid rgba(0,0,0,0.2);
+}
